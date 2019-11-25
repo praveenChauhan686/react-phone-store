@@ -18,6 +18,7 @@ export default class Cart extends Component {
                   <Title name="your" title="cart"></Title>
                   <CartColumns></CartColumns>
                   <CartList value={value}></CartList>
+                  {/* added this.prop.history */}
                   <CartTotals value={value} history={this.props.history}>
                     {" "}
                   </CartTotals>
